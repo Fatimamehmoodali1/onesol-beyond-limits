@@ -1,7 +1,7 @@
 /* ---------- Trusted Section ---------- */
-.trusted-section { 
+/* .trusted-section {  */
   /* background-image: url('/images/trusted-bg.png'); */
-  background: url('/public/images/trusted-bg.png') no-repeat center center; 
+/*   background: url('/public/images/trusted-bg.png') no-repeat center center; 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@
   text-align: center;
   padding: 100px 20px; 
   
-}
+} */
 
 /* .background-image {
   position: relative;
