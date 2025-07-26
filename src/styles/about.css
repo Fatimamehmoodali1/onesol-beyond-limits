@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap');
+
+
+.about-us {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  background: #E2E2E2 url('/images/Vector 2.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 80px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.about-circle {
+  position: absolute;
+  /* width: 300px; */
+  /* height: 500px; */
+  z-index: 0;
+  opacity: 1;
+}
+
+.about-circle.left {
+  height: 500px;
+  width: 300px;
+  left: -130px;
+  top: 27%;
+}
+
+.about-circle.right {
+  width: 300px;
+  height: 400px;
+  right: -16%;
+  bottom: 30%;
+  rotate: 144deg;
+}
+
+.about-us .content {
+  max-width: 900px;
+  /* color: #4A4A4B; */
+  text-align: center;
+  font-family: karla, sans-serif;
+  position: relative;
+  z-index: 2;
+}
+
+.about-us .content h2 {
+  color: black;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.about-us .content p {
+  color: #4A4A4B;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+
+/* ---------- Responsive Breakpoints ---------- */
+@media (max-width: 1024px) {
+  .about-us {
+    padding: 70px 40px;
+  }
+
+  .about-us .content h2 {
+    font-size: 32px;
+  }
+
+  .about-us .content p {
+    font-size: 11px;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us {
+    padding: 60px 30px;
+    background-position: center top;
+  }
+
+  .about-us .content h2 {
+    font-size: 28px;
+  }
+
+  .about-us .content p {
+    font-size: 14.5px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us {
+    padding: 50px 20px;
+  }
+
+  .about-us .content h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .about-us .content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+}
